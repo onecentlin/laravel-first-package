@@ -1,5 +1,4 @@
 # First Laravel Package
-=============
 
 This is my first laravel package for Laravel v5.x
 
@@ -35,4 +34,12 @@ ServiceProvider array
 Alias array
 ```php
 'FirstPackage' => 'Onecentlin\FirstPackage\FirstPackage'
+```
+
+### Usage
+
+sayHello returns string message
+
+```php
+FirstPackage::sayHello('Winnie', 'happy day!');
 ```
