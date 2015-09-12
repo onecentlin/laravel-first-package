@@ -1,0 +1,12 @@
+{
+    "name": "onecentlin/laravel-first-package",
+    "description": "My First Package",
+    "authors": [
+        {
+            "name": "Winnie Lin",
+            "email": "onecentlin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
