@@ -8,11 +8,10 @@ class FirstPackageServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        return new FirstPackage;
+        return new FirstPackage();
     }
 
     public function register()
     {
-
     }
 }
